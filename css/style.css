@@ -1,0 +1,78 @@
+.header-flex{
+	display: flex;
+	justify-content: space-around;
+}
+.header-bg{
+	background-image: url(../img/baneri.jpg);
+	width: 100%;
+	height: 325px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: white;
+}
+.nav-ul{
+	display: flex;
+	margin-top: 32px;
+}
+.home{
+	color: #5863F8;
+}
+li{
+	margin-left: 50px;
+}
+a{
+	color: white;
+	font-size: 12px;
+	margin-top: 32px;
+}
+.satauri{
+	margin-top: 96px;
+	margin-left: 295px ;
+	font-size: 42px;
+	max-width: 195px;
+	width: 100%;
+}
+@media only screen and (max-width: 1300px) {
+	.satauri{
+		margin-left: 150px;
+	}
+}
+@media only screen and (max-width: 1000px) {
+	.satauri{
+		margin-left: 70px;
+	}
+}
+@media only screen and (max-width: 730px) {
+	.satauri{
+		text-align: center;
+	}
+	.nav-ul{
+		display: flex;  
+  		flex-wrap:wrap;
+	}
+	.header-flex{
+		margin-left: 10px;
+	}
+}
+@media only screen and (max-width: 356px) {
+	.satauri{
+	text-align: center;	
+	}
+	.nav-ul{
+		display: flex;
+		justify-content: space-between;
+	}
+	.header-flex{
+		margin-left: 10px;
+	}
+}
+h1 {
+	font-family: 'Raleway', sans-serif;
+}
+p{
+	font-family: 'Raleway', sans-serif;
+}
+a {
+	font-family: 'Raleway', sans-serif;
+}
