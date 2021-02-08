@@ -83,7 +83,6 @@ a {
 	max-width: 1230px;
 	width: 100%
 	height: 540px;
-	background-color: grey;
 	margin: 0 auto;
 	margin-top: 190px;
 }
@@ -94,10 +93,9 @@ a {
 	height: 435px;
 }
 .box2{
-	max-width: 536px;
+	max-width: 550px;
 	width: 100%;
 	height: 461px;
-	background-color: red;
 }
 .satauri1{
 	display: flex;
@@ -124,7 +122,12 @@ button{
 	max-width: 140px;
 	width: 100%;
 	height: 51px;
-	margin-top: 106px;
+	margin-top: 95px;
+}
+@media only screen and (max-width: 1060px) {
+	.box1{
+		width: 50%;
+	}
 }
 @media only screen and (max-width: 850px) {
 	.home1{
@@ -147,17 +150,123 @@ button{
 }
 @media only screen and (max-width: 580px) {
 	.text{
-		font-size: 12px;
+		font-size: 14px;
 	}
 	button{
 		margin-top: 179px;
 	}
 }
+
+@media only screen and (max-width: 555px) {
+	button{
+		margin-top: 120px;
+	}
+}
 @media only screen and (max-width: 475px) {
 	button{
-		margin-top: 80px;
+		margin-top: 60px;
 	}
 	.text{
 		margin-top: 30px;
+	}
+}
+/*box2*/
+.ori-surati{
+	max-width: 550px;
+	width: 100%;
+	height: 180px;
+	display: flex;
+	justify-content: space-between;
+}
+.didi-surati{
+	width: 550px;
+	width: 100%;
+	height: 260px;
+	margin-top: 10px;
+	
+}
+.surati3{
+	max-width: 550px;
+	width: 100%;
+}
+@media only screen and (max-width: 982px) {
+	.box2{
+		width: 50%;
+	}
+	.ori-surati{
+		width: 50%;
+	}
+}
+.@media only screen and (max-width: 657px) {
+	.surati1{
+		width: 100%;
+	}
+	.surati3{
+		height: 100px;
+	}
+}
+.surati1,
+.surati2{
+	max-width: 260px;
+	width: 100%;
+}
+@media only screen and (max-width: 720px) {
+	.didi-surati{
+		display: none;
+	}
+	.ori-surati{
+		flex-wrap: wrap;
+		width: 100%;
+	}
+	.ori-surati{
+		margin: 0 auto;
+		margin-top: 50px;
+	}
+	.surati2{
+		margin-top: 16px;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	.surati2{
+		margin-top: 90px;
+	}
+}
+
+@media only screen and (max-width: 420px) {
+	.ori-surati{
+		margin-top: 100px;
+	}
+}
+
+/*button*/
+
+@media only screen and (max-width: 984px) {
+	button{
+		margin-top: 80px;
+	}
+}
+
+@media only screen and (max-width: 920px) {
+	button{
+		margin-top: 60px;
+	}
+}
+
+@media only screen and (max-width: 890px) {
+	button{
+		margin-top: 50px;
+	}
+}
+
+@media only screen and (max-width: 889px) {
+	button{
+		margin-top: 30px;
+	}
+}
+
+@media only screen and (max-width: 866px) {
+	button{
+		margin-top: 100px;
 	}
 }
