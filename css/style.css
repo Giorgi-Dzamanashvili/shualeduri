@@ -304,7 +304,7 @@ button{
 	width: 100%;
 	height: 115px;
 	padding-top: 113px;
-	margin-left: 139px;
+	margin-left: 400px;
 	color: white;
 }
 .abus{
@@ -315,5 +315,186 @@ button{
 	font-size: 14px;
 	color: #5863F8;
 	top: 90px;
-	left: 139px;
+	left: 400px;
 }
+/*yutebi*/
+.yutebi{
+	display: flex;
+	justify-content: space-between;
+	max-width: 1115px;
+	width: 100%;
+	height: 260px;
+	margin: 0 auto;
+	margin-top: 200px;
+	margin-left: 400px;
+}
+.yuti1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	max-width: 260px;
+	width: 100%;
+	height: 260px;
+	background-color: white;
+}
+.yuti2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	max-width: 260px;
+	width: 100%;
+	height: 260px;
+	background-color: white;
+}
+.yuti3{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	max-width: 260px;
+	width: 100%;
+	height: 260px;
+	background-color: white;
+}
+.yuti4{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	max-width: 260px;
+	width: 100%;
+	height: 260px;
+	background-color: white;
+}
+.img-box{
+	width:59px;
+	height: 58px;
+	background-color: #5863F8;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.sataurebi{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	max-width: 166px;
+	width: 100%;
+	height:52px;
+	color: black;
+	font-size: 16px;
+}
+.sataurebi4{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	max-width: 166px;
+	width: 100%;
+	height:52px;
+	color: black;
+	font-size: 16px;
+}
+.teqsti{
+	margin-top: 20px;
+	text-align: center;
+	max-width: 221px;
+	width: 100%;
+	height: 62px;
+	color: #B1B1B1;
+	font-size: 14px;
+}
+h2{
+	font-family: 'Raleway', sans-serif;
+}
+@media only screen and (max-width: 1550px) {
+	.yutebi{
+		margin-left: 100px;
+	}
+	.satauri2{
+		margin-left: 100px;
+	}
+	.abus{
+		left: 100px;
+	}
+}
+@media only screen and (max-width: 1235px) {
+	.yutebi{
+		width: 80%;
+	}
+	.yuti2,
+	.yuti3,
+	.yuti4{
+		margin-left: 5px;
+	}
+}
+@media only screen and (max-width: 965px) {
+	.sataurebi,
+	.sataurebi4{
+		font-size: 14px;
+	}
+}
+@media only screen and (max-width: 846px) {
+	.sataurebi{
+		font-size: 14px;
+		width: 50%;
+		margin-top: 10px;
+	}
+	.satauri2{
+		width: 50%;
+		font-size: 18px;
+	}
+	.img-box{
+		margin-top: 0px;
+		height: 50px;
+	}
+}
+@media only screen and (max-width: 690px) {
+	.teqsti{
+		font-size: 14px;
+	}
+}@media only screen and (max-width: 590px) {
+	.sataurebi,
+	.sataurebi4{
+		font-size: 14px;
+	}
+	.teqsti{
+		font-size: 12px;
+		margin-top: 10px;
+	}
+	.yutebi{
+		margin-left: 0px;
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 450px) {
+	.yutebi{
+		width: 100%;
+		margin-left: 0px;
+		margin-top: 220px;
+	}
+	.satauri2{
+		margin-left: 20px;
+		margin-top: 0px;
+	}
+	.abus{
+		left: 20px;
+	}
+	.sataurebi,
+	.sataurebi4{
+		font-size: 12px;
+	}
+}
+
+
+
+
+
+
+	
+
+
